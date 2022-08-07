@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+ }
+
+ body {
+    font-family:'Noto Serif', serif;
+}
+h1 {
+    font-size: 50px;
+}
+
+.barra {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(251, 252, 255);
+    color: rgb(7, 7, 103);
+    font-family: 'Open Sans', sans-serif;
+}
+    
+nav {
+    background-color: rgba(21, 55, 156, 0.234);
+}
+    
+.opciones {
+        display: flex;
+        justify-content: space-between;
+        padding: 2em;
+}
+
+.iniciales {
+        font-size: large;
+        margin-top: -7px;
+}
+
+.iniciales span {
+        color: rgb(12, 152, 216);
+}
+        
+        
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+    
+.menu li {
+    list-style: none;
+}
+    
+.menu a {
+    font-size: medium;
+    color: rgb(3, 3, 119) ;
+    text-decoration: none;
+    padding: 10px;
+} 
+
+.presentacion {
+    margin: 0 auto;
+    width: 80vw;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+
+.presentacion img {
+    width: 850px;
+    height: 500px;
+    
+
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 88vh;
+    font-size: 17px;
+    justify-content: center;
+}
+    
+.comunicacion {
+    width: 650px;
+    height: 350px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.imgequipo {
+    width: 850px;
+    height: 400px;
+}
+.imgcarac {
+    width: 800px;
+    height: 450px;
+}
+
+.principales a {
+    text-decoration: none;
+    color: black;
+}
